@@ -2,12 +2,14 @@ import { test } from '@playwright/test';
 import { SwagShopLogin } from '../pages/login-page';
 import { CheckItemPrice } from '../pages/checkItemPrice-page';
 
-test('Check price for a backpack', async ({ page }) => {
+test.beforeEach(async ({ page }) => {
   const swagShopLogin = new SwagShopLogin(page);
-  const checkItemPrice = new CheckItemPrice(page);
-
   await swagShopLogin.goto();
   await swagShopLogin.loginUser('standard_user', 'secret_sauce');
+});
+
+test('Check price for a backpack', async ({ page }) => {
+  const checkItemPrice = new CheckItemPrice(page);
 
   await checkItemPrice.checkItemPrice('Sauce Labs Backpack', '23.99');
 
@@ -15,11 +17,7 @@ test('Check price for a backpack', async ({ page }) => {
 });
 
 test('Check prices for all swag', async ({ page }) => {
-  const swagShopLogin = new SwagShopLogin(page);
   const checkItemPrice = new CheckItemPrice(page);
-
-  await swagShopLogin.goto();
-  await swagShopLogin.loginUser('standard_user', 'secret_sauce');
 
   await checkItemPrice.checkItemPrice('Sauce Labs Backpack', '23.99');
   await checkItemPrice.checkItemPrice('Sauce Labs Bike Light', '11.99');
