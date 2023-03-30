@@ -1,0 +1,384 @@
+[
+  {
+    "description": "    Feature Description : check for backpack price and all prices",
+    "elements": [
+      {
+        "description": "",
+        "id": "check-prices-in-swag-shop;verify-backpack-price",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify backpack price",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 788652010
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I am on main swag shop page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149242541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Backpack price is '23.99'",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6735859
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94914321
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-prices-in-swag-shop;verify-all-prices",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Verify all prices",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 785262377
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on main swag shop page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152226500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see 'Sauce Labs Backpack' in price '23.99' on the page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8449170
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 85563396
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-prices-in-swag-shop;verify-all-prices",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Verify all prices",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 849367103
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on main swag shop page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164730128
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see 'Sauce Labs Bike Light' in price '11.99' on the page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10683273
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79142454
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-prices-in-swag-shop;verify-all-prices",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Verify all prices",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 837352817
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on main swag shop page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150646282
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see 'Sauce Labs Bolt T-Shirt' in price '19.99' on the page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3363130
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 96335065
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-prices-in-swag-shop;verify-all-prices",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Verify all prices",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 828190921
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on main swag shop page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112566797
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see 'Sauce Labs Fleece Jacket' in price '45.99' on the page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7629409
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 99080081
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-prices-in-swag-shop;verify-all-prices",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Verify all prices",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 797863230
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on main swag shop page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104645252
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see 'Sauce Labs Onesie' in price '9.99' on the page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4142373
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53558381
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-prices-in-swag-shop;verify-all-prices",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Verify all prices",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1109987712
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am on main swag shop page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150248214
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see 'Test.allTheThings() T-Shirt (Red)' in price '18.99' on the page",
+            "match": {
+              "location": "steps/checkSwagPrices.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3854405
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 78059654
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "check-prices-in-swag-shop",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Check prices in swag shop",
+    "tags": [],
+    "uri": "features/checkSwagPrices.feature"
+  }
+]
